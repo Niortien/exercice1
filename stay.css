@@ -11,7 +11,7 @@ body{
 
 .boite{
     
-    height: 35rem;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +90,7 @@ input{
 .boutton{
     display: flex;
     width: 18rem;
-    height: 2rem;
+    padding: 0.4rem;
     background-color: hsla(234, 29%, 20%, 0.927);
     align-items: center;
     margin-top: 10px;
