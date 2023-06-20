@@ -20,7 +20,7 @@ body{
     
 }
 .container{
-    height:25rem ;
+    
     
     width: 40rem;
     background-color: white;
@@ -28,6 +28,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 5px;
+    
     
     
 }
@@ -52,18 +53,20 @@ body{
 
 .container2{
     width: 40%;
-    
     display: flex;
     height: 370px;
     justify-content: center;
+    border-radius: 0.8rem;
+    background-image: url("assets/images/illustration-sign-up-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
 
     
 
 }
-.container2 img{
-    width: 100%px;
-    margin-top:23px ;
-}
+
 .souC{
     display: flex;
 }
@@ -86,6 +89,8 @@ input{
 .email{
     font-size: 12px;
     font-weight: bold;
+    padding: 0.4;
+
 }
 .boutton{
     display: flex;
@@ -101,3 +106,29 @@ input{
 .boutton p{
     margin-bottom: 10px;
 }
+@media screen and (max-width: 512px) {
+    .container{
+        flex-direction: column-reverse;
+
+    }
+    .container2{
+        width: 100%;
+        background-image: url("assets/images/illustration-sign-up-mobile.svg");
+        height: 390px;
+    
+        
+    }
+    .container1{
+        width: 100%;
+    }
+    .boutton
+        {
+width: 100%;
+        }
+        input
+        {
+width: 100%;
+        }
+    
+}
+    
